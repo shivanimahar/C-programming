@@ -12,4 +12,7 @@ int main(){
     // char c = 'a';
     char c;
     c = 'a'; //here character will always be in single quote , never in double quote
+    printf("The value of a is %d",a);
+    printf("The value of a is %f",b);
+    printf("The value of a is %c",c);
 }
