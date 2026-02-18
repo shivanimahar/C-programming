@@ -4,3 +4,23 @@ to the third element where ptr is a pointer pointing to the first element of the
 array.
 */
 
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int *ptr = a; //ptr stores the address of the first element of the array.
+
+    printf("The value at address %u is %d", ptr+2,*(ptr+2));
+    /*
+    %u → prints the address stored in ptr+2
+    %d → prints the value at that address
+    ptr + 2     = &a[2]
+    *(ptr + 2)  = a[2]
+    */
+    return 0;   
+
+}
+

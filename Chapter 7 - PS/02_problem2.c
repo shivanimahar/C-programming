@@ -4,3 +4,9 @@
 (ii) False.
 (iii) Depends.
 */
+ /*
+ *(S+0) = S[0]  → 1st element
+*(S+1) = S[1]  → 2nd element
+*(S+2) = S[2]  → 3rd element
+*/
+
