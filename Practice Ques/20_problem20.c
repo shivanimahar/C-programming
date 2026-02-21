@@ -1,0 +1,20 @@
+/*
+23. Write a C program to find whether a given number is a power of 2 using
+      bitwise operators.
+
+      Hint: (n & (n-1)) == 0
+      */
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    if(n > 0 && (n & (n-1)) == 0) 
+        printf("%d is a power of 2", n);
+    else
+        printf("%d is not a power of 2", n);
+
+    return 0;
+}
