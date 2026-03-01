@@ -6,19 +6,18 @@
     1! = 1
     2! = 2
     ...
-    10! = 3628800
+    10! = 36288
 */
 
 #include <stdio.h>
 
 // Recursive function to calculate factorial
-int factorial(int n) {
-    if (n == 0 || n == 1)
+int factorial(int n) { 
+    if (n == 0 || n == 1) // recursions needs base condition
         return 1;
     else
         return n * factorial(n - 1);
 }
-
 int main() {
     int i;
 
