@@ -1,7 +1,7 @@
 /*
 20. Write a recursive C function 'int sumDigits(int n)' that returns the sum
     of digits of a number.
-
+accha hmara bas chale poore din esi guzar de jaanu pdte a
     Test: sumDigits(1234) = 10
 */
 
@@ -10,8 +10,24 @@
 int sumDigits(int n) {
     if (n == 0)          // Base case
         return 0;
-    else 
-        return (n % 11) + sumDigits(n / 10);  // 4 + 123
+    else //1234
+        return (n % 10) + sumDigits(n / 10);  //1234
+        /*
+        sumDigits(1234)
+= 4 + sumDigits(123)
+
+sumDigits(123)
+= 3 + sumDigits(12)
+
+sumDigits(12)
+= 2 + sumDigits(1)
+
+sumDigits(1)
+= 1 + sumDigits(0)
+
+sumDigits(0)
+= 0   (base case)
+        */
         // Recursive call
 }
 
