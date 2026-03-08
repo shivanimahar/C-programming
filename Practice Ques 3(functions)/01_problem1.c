@@ -14,7 +14,7 @@ float area_rect(float l, float b){
 
 int main(){
     float l,b;
-    printf("l and b type kro: ");
+    printf("l and b: ");
     scanf("%f %f",&l,&b);
     float area = area_rect(l,b);
     printf("area: %.2f ",area);
