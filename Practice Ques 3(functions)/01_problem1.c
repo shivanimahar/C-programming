@@ -1,8 +1,7 @@
 /*
 1. Write a C program using a function prototype to calculate and return the
    area of a rectangle. Accept length and breadth as parameters.
-
-   Expected Output: Area of rectangle = 50 (for length=10, breadth=5)
+   Expected Output should be: Area of rectangle = 50 (for length=10, breadth=5)
 */ 
 #include<stdio.h>
 
