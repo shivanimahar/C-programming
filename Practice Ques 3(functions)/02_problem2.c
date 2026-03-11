@@ -7,7 +7,19 @@
 */
 #include <stdio.h>
 
-// Function prototype
+int isPrime(int n) {
+
+    if (n <= 1) return 0;  // 0 and 1 are not prime
+
+    for (int i = 2; i * i <= n; i++){
+        if (n % i == 0) { 
+            return 0;  // divisible, not prime
+        }
+    }
+    return 1;  // prime 
+}
+
+
 int isPrime(int n);
 
 int main() {
@@ -19,16 +31,4 @@ int main() {
     }
     printf("\n");
     return 0;
-}
-
-// Function definition
-int isPrime(int n) {
-    if (n <= 1) return 0;  // 0 and 1 are not prime
-
-    for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) { 
-            return 0;  // divisible, not prime
-        }
-    }
-    return 1;  // prime 
 }
