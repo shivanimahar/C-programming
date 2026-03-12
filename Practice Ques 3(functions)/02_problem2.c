@@ -1,6 +1,7 @@
 /*
 2. Write a C program with a function 'isPrime(int n)' that returns 1 if the
-   number is prime and 0 otherwise. Call it from main() for numbers 1 to 20
+   number is prime and 0 otherwise. 
+   Call it from main() for numbers 1 to 20
    and print only prime numbers.
 
    Expected Output: 2 3 5 7 11 13 17 19
@@ -13,7 +14,7 @@ int isPrime(int n) {
 
     for (int i = 2; i * i <= n; i++){
         if (n % i == 0) { 
-            return 0;  // divisible, not prime
+            return 0;  // divisible, not primeee
         }
     }
     return 1;  // prime 
