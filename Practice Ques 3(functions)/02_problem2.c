@@ -14,7 +14,7 @@ int isPrime(int n) {
 
     for (int i = 2; i * i <= n; i++){
         if (n % i == 0) { 
-            return 0;  // divisible, not primeee
+            return 0;  // divisible, it is not prime
         }
     }
     return 1;  // prime 
