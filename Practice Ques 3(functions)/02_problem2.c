@@ -1,7 +1,8 @@
 /*
 2. Write a C program with a function 
-   'isPrime(int n)' that returns 1 if the
-   number is prime and 0 otherwise. 
+   'isPrime(int n)' that returns
+    1 if the
+   number is prime andddd 0 otherwise. 
    Call it from main() for numbers 1 to 20
    and 
    print only prime numbers.
