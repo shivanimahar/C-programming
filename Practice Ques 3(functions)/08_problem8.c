@@ -1,6 +1,9 @@
 /*
-8. Write a C function 'void updateArray(int arr[], int n)' that multiplies
-   each element of the array by 2. Print the array before and after the call.
+8. Write a C function 
+'void updateArray(int arr[], int n)' 
+that multiplies
+each element of the array by 2. 
+Print the array before and after the callll.
 
    Input:  {1, 2, 3, 4, 5}
    Output: {2, 4, 6, 8, 10}
