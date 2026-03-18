@@ -1,7 +1,10 @@
 /*
-9. Write a C program with a function 'void getMinMax(int arr[], int n,
-   int *min, int *max)' that finds both minimum and maximum values of an
-   array using call by reference and returns them through pointer parameters.
+9. Write a C program with
+ a function 'void getMinMax(int arr[], int n,
+int *min, int *max)' that finds both minimum 
+and maximum values of an
+array using call by reference and 
+returns them through pointer parametersss.
 */
 #include <stdio.h>
 
