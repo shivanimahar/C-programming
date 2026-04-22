@@ -11,7 +11,6 @@ void reverse(int *start, int *end) {
         int temp = *start;
         *start = *end;
         *end = temp;
-
         start++;
         end--;
     }
@@ -30,7 +29,6 @@ void rotateLeft(int *arr, int n, int k) {
     // Step 3: Reverse whole array
     reverse(arr, arr + n - 1);
 }
-
 int main() {
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
@@ -47,6 +45,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
+    
+
 
     return 0;
 }
